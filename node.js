@@ -38,6 +38,7 @@ server.patch("/", async (req, res) => {
   res.status(201).send()
 })
 
-server.listen( {
-    port:3333,
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`)
 })
