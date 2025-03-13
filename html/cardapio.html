@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SINAI Cafe</title>
+
+    <link rel="stylesheet" href="/sinai-cafe/css/reset.css">
+    <link rel="stylesheet" href="/sinai-cafe/css/style-cardapio.css">
+    <link rel="stylesheet" href="/sinai-cafe/css/style-aboutBebidas.css">
+
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+</head>
+    <body>
+        <div id="gray-container"></div>
+        <div class="main-cardapio">
+            <h2>Bebidas Quentes</h2>
+
+            <div class="bebidas-quentes cafes">
+                <ul>
+                    <li class="cafe-quente cafe tem-adicional">
+                        <img src="/sinai-cafe/images/latte-coffee.jpeg" alt="Imagem do café">
+                        <h3>latte</h3>
+                        <p>café, leite</p>
+                    </li>
+                    <li class="cafe-quente cafe tem-adicional">
+                        <img src="/sinai-cafe/images/mocha.jpeg" alt="Imagem do café">
+                        <h3>mocha</h3>
+                        <p>café, leite, chocolate</p>
+                    </li>
+                    <li class="cafe-quente cafe no-milk">
+                        <img src="/sinai-cafe/images/espresso.jpeg" alt="Imagem do café">
+                        <h3>espresso</h3>
+                        <p>café</p>
+                    </li>
+                    <li class="cafe-quente cafe tem-adicional">
+                        <img src="/sinai-cafe/images/cappuccino.jpeg" alt="Imagem do café">
+                        <h3>cappuccino</h3>
+                        <p>café, leite vaporizado, canela <b>ou</b> cacau</p>
+                    </li>
+                    <li class="cafe-quente cafe">
+                        <img src="/sinai-cafe/images/vanilla-latte.jpeg" alt="Imagem do café">
+                        <h3>vanilla latte</h3>
+                        <p>café, leite, xarope de baunilha</p>
+                    </li>
+                    <li class="cafe-quente cafe">
+                        <img src="/sinai-cafe/images/caramel-latte.jpeg" alt="Imagem do café">
+                        <h3>caramel latte</h3>
+                        <p>café, leite, caramelo</p>
+                    </li>
+                    <li class="cafe-quente cafe no-milk">
+                        <img src="/sinai-cafe/images/americano.jpeg" alt="Imagem do café">
+                        <h3>café americano</h3>
+                        <p>café, água quente</p>
+                    </li>
+                </ul>
+            </div>
+                
+            <h2>Bebidas Geladas</h2>
+
+            <div class="bebidas-geladas cafes">
+                <ul>
+                    <li class="cafe-gelado cafe tem-adicional">
+                        <img src="/sinai-cafe/images/iced-mocha.jpeg" alt="Imagem do café">
+                        <h3>iced mocha</h3>
+                        <p>café, leite, gelo, chocolate, cacau em pó</p>
+                    </li>
+                    <li class="cafe-gelado cafe tem-adicional">
+                        <img src="/sinai-cafe/images/iced-coffee.jpeg" alt="Imagem do café">
+                        <h3>iced coffee</h3>
+                        <p>café, leite, gelo</p>
+                    </li>
+                    <li class="cafe-gelado cafe no-milk">
+                        <img src="/sinai-cafe/images/iced-americano.jpeg" alt="Imagem do café">
+                        <h3>iced americano</h3>
+                        <p>café, água, gelo</p>
+                    </li>
+                    <li class="cafe-gelado cafe">
+                        <img src="/sinai-cafe/images/iced-vanilla.jpeg" alt="Imagem do café">
+                        <h3>iced vanilla latte</h3>
+                        <p>café, leite, gelo, xarope de baunilha</p>
+                    </li>
+                    <li class="cafe-gelado cafe">
+                        <img src="/sinai-cafe/images/iced-caramel-latte.jpeg" alt="Imagem do café">
+                        <h3>iced caramel latte</h3>
+                        <p>café, leite, gelo, calda de caramelo</p>
+                    </li>
+                    <!-- <li class="cafe-gelado cafe">
+                        <img src="/sinai-cafe/images/Easy Iced Mocha Recipe with DIY Mocha Syrup _ Wholefully.jpeg" alt="Imagem do café">
+                        <h3>cappucino gelado especial</h3>
+                        <p>bebida especial!</p>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="title">
+                <div class="grid title-about">
+                    <h1>Mais sobre a sua Bebida!</h1>
+                </div>
+                <div class="grid close exit-icon">
+                    <i id="exit-button" class="fa-regular fa-circle-xmark"></i>
+                </div>
+            </div>
+
+            <div class="card-about">
+                <div class="coffee-image">
+                    <img src="" alt="Imagem do Café">   
+                </div>
+
+                <div class="description">
+                    <h4 class="nome-cafe"></h4>
+
+                    <p class="coffee-description"></p>
+
+                    <span class="title-span">Qual leite vai no seu café?</span>
+
+                    <label for="integral">
+                        <div class="options leites">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>Leite integral</span>
+                        </div>
+                    </label>
+
+                    <label for="zero">
+                        <div class="options leites">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>Leite zero lactose</span>
+                        </div>
+                    </label>
+                    <form action="/sinai-cafe/php/index.php" method="get">
+                    <input name="cafe" class="nome-bebida" type="text" value="Enviar" style="display: none;">
+                    <div class="input-leite" id="tipo-leite">
+                        <input class="radio-milk" name="tipo-leite" value="Integral" type="radio" id="integral">
+                        <span class="integral">Leite integral</span>
+                        <input class="radio-milk" name="tipo-leite" value="Zero" type="radio" id="zero">
+                        <span class="zero-lactose">Leite zero lactose</span>
+                    </div>
+                </div> 
+            </div>
+            <input type="button" value="Avançar" class="avancar-pedido submit-button">
+        </div>
+
+        <div id="adicionais">
+            <div class="title">
+                <div class="grid close return-icon">
+                    <i id="return-button" class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="grid title-description">
+                    <h1>Algum adicional?</h1>
+                </div>
+            </div>
+
+            <div class="card-adicionais">
+                <div class="coffee-image">
+                    <img src="" alt="Imagem do Café">
+                </div>
+
+                <div class="description-adicionais">
+                    <span class="title-span">Qual adicional??</span>
+
+                    <label for="canela">
+                        <div class="options adicionais">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>Canela</span>
+                        </div>
+                    </label>
+
+                    <label for="cacau">
+                        <div class="options adicioanais">
+                            <a><i class="fa-solid fa-plus"></i></a>
+                            <span>Cacau em pó</span>
+                        </div>
+                    </label>
+
+                    <label for="nada">
+                        <div class="options adicioanais">
+                            <a><i class="fa-solid fa-plus"></i></a>
+                            <span>Nada</span>
+                        </div>
+                    </label>
+                    <div class="input-adicional" id="tipo-adicional">
+                        <input class="radio-adicional" name="tipo-adicional" type="radio" id="canela" value="Canela">
+                        <span class="radio-btn"></span>
+                        <span class="canela">Canela</span>
+                        <input class="radio-adicional" name="tipo-adicional" type="radio" id="cacau" value="Cacau">
+                        <span class="cacau">Cacau em Pó</span>
+                        <input class="radio-adicional" name="tipo-adicional" type="radio" id="nada" value="Nenhum">
+                        <span class="nada">Nenhum</span>
+                    </div>
+                </div> 
+            </div>
+            <input type="submit" value="Finalizar pedido" class="confirmacao-pedido submit-button"></input>
+        </div>
+    </form>
+        
+    <script src="https://kit.fontawesome.com/a6202c195c.js" crossorigin="anonymous"></script>
+    <script type="module" src="/sinai-cafe/script/cardapioScript/index.js"></script>
+    </body>
+</html>

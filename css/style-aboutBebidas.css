@@ -1,0 +1,244 @@
+body{
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card-about {
+    display: flex;
+    align-items: center;
+}
+
+.title-about h1, .title-description h1 {
+    text-align: center;
+}
+
+.description-adicionais, .description {
+    height: 360px;
+    border-left: black solid 1px;
+    padding: 0px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+}
+
+.description p {
+    line-height: 22px;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.options span , .title-span {
+    padding: 12px 0px;
+    font-size: 22px;
+    font-weight: 600;
+    transition: 0.15s linear;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 5px 0px;
+    width: 375px;
+    padding-left: 6px;
+    transition: 0.15s linear;
+}
+
+.options span {
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.zero-lactose {
+    display: none;
+}
+
+.integral {
+    display: none;
+}
+
+.title-span {
+    text-transform: none;
+}
+
+label {
+    display: inline-flex;
+    width: 375px;
+    height: 54.5;
+    cursor: pointer;
+}
+
+.input-leite {
+    margin-top: 40px;
+    background-color: #727272;
+    padding:  0px 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    color: #ffffff;
+    width: 160px;
+}
+
+.input-leite span {
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.input-adicional {
+    margin-top: 40px;
+    background-color: #727272;
+    padding:  0px 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    color: #ffffff;
+    width: 160px;
+}
+
+.input-adicional span {
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.fa-plus {
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.submit-button {
+    box-sizing: border-box;
+    background-color: #9c9c9c;
+    color: #ffffff;
+    width: 600px;
+    height: 60px;
+    margin: 20px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: 0.5s;
+    border: none;
+    cursor: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-image {
+    margin: 30px;
+    width: 280px;
+    height: 360px;
+    overflow: hidden;
+    box-shadow: 0px 0px 14px -3px #000000;
+    border-radius: 7px;
+}
+
+.coffee-image img {
+    width: 280px;
+    height: 360px;
+    border-radius: 7px;
+}
+
+#about {
+    height: 600px;
+    width: 910px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 18px -7px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.title {
+    height: 69.6px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.title-about, .title-description {
+    justify-self: center;
+    width: 100%;
+    margin-left: 45px;
+}
+
+.title-description {
+    width: 80%;
+}
+
+.exit-icon {
+    padding: 8px 15px 0px 0px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gray-container {
+    height: 1679.2px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(138, 138, 138, 0.8);
+    display: none;
+}
+
+.blinkColor {    
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0px 0px 14px -3px #000000;
+}
+
+.blinkColor span {
+    font-size: 23px;
+    color: #ffffff;
+
+}
+
+#adicionais{
+    height: 600px;
+    width: 910px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 18px -7px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.card-adicionais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.return-icon {
+    padding: 0px 0px 0px 25px;
+    font-size: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.nome-cafe {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#return-button {
+    display: none;
+}

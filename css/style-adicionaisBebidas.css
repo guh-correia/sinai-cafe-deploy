@@ -1,0 +1,137 @@
+.leites span , .title-span {
+    padding: 12px 0px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.leites {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 5px 0px;
+    width: 375px;
+    padding-left: 6px;
+}
+
+.leites span {
+    text-transform: none;
+    margin-left: 5px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.radio-btn {
+    /* margin-right: 4px; */
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    border-color: #000000;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 5px;
+}
+
+.zero-lactose {
+    display: none;
+}
+
+.integral {
+    display: none;
+}
+
+.title-span {
+    text-transform: none;
+}
+
+label {
+    display: inline-flex;
+    width: 375px;
+    height: 54.5;
+    cursor: pointer;
+}
+
+.input-leite {
+    margin-top: 40px;
+    background-color: #727272;
+    padding:  0px 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    color: #ffffff;
+    width: 160px;
+    transition: 0.3s;
+}
+
+.input-leite span {
+    font-size: 14px;
+    text-transform: none;
+    transition: 0.3s;
+}
+
+.return-icon {
+    padding: 25px 0px 0px 35px;
+    font-size: 45px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.confirmacao-pedido {
+    box-sizing: border-box;
+    background-color: #9c9c9c;
+    color: #ffffff;
+    width: 600px;
+    height: 60px;
+    margin: 20px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: 0.5s;
+    border: none;
+}
+
+.card-about img {
+    margin: 30px;
+    box-shadow: 0px 0px 14px -3px #000000;
+}
+
+#about {
+    height: 600px;
+    width: 910px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 18px -7px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.title-about {
+    justify-self: center;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.grid {
+    display: grid;
+}
+
+#gray-container {
+    height: 1579.2px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(138, 138, 138, 0.8);
+    display: none;
+}
+
