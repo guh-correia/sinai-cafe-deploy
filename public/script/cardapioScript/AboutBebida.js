@@ -1,6 +1,6 @@
 import { centralizeCardAbout, centralizeCardAdicionais } from "./services/centralizeWindow.js";
 import { getDescription } from "../cardapioScript/services/api.js";
-import { cardAbout, cardAdicionais, inputLeite, avancarPedido, leiteIntegral, leiteZero, leiteVegetal } from "./dom/cardapio.js";
+import { cardAbout, cardAdicionais, inputLeite, avancarPedido, leiteIntegral, leiteZero } from "./dom/cardapio.js";
 import { preventSubmit } from "./services/preventNoMilk.js";
 
 inputLeite.style.display = "none";

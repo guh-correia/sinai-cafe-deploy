@@ -10,4 +10,4 @@ const leiteZero = document.getElementById("zero");
 const leiteVegetal = document.getElementById("vegetal");
 
 
-export { cafes, grayBackground, body, cardAbout, cardAdicionais, inputLeite, avancarPedido, leiteIntegral } 
+export { cafes, grayBackground, body, cardAbout, cardAdicionais, inputLeite, avancarPedido, leiteIntegral, leiteVegetal } 
