@@ -8,6 +8,13 @@
         },
 
         {
+            "coado v60": {
+                "description": "Um café tradicional, coado no clássico método V60.",
+                "image": "/images/coado-v60.jpeg"
+            }
+        },
+
+        {
             "Espresso Macchiato": {
                 "name": "Espresso Macchiato",
                 "description": "Espresso com um toque de espuma de leite, perfeito para quem quer um equilíbrio entre intensidade e suavidade.",
