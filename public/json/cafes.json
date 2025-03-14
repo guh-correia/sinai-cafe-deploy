@@ -23,7 +23,7 @@
         },
         {
             "mocha": {   
-                "description": "Uma combinação deliciosa de espresso, chocolate e leite vaporizado, finalizada com chantilly.",
+                "description": "Uma combinação deliciosa de espresso, chocolate e leite vaporizado.",
                 "image": "/images/mocha.jpeg"
                 }
         },
@@ -37,7 +37,7 @@
 
         {
             "vanilla latte": {
-                "description": "Espresso com leite vaporizado e um toque de xarope de baunilha, criando uma bebida doce e aromática.",
+                "description": "Espresso com leite vaporizado e um toque de xarope de baunilha, resultando em uma bebida doce e aromática.",
                 "image": "/images/vanilla-latte.jpeg"
             }
         },
@@ -58,7 +58,7 @@
 
         {
             "iced mocha": {
-                "description": "Espresso combinado com chocolate, leite gelado e servido com gelo, muitas vezes finalizado com chantilly.",
+                "description": "Espresso combinado com chocolate, leite gelado e servido com gelo, finalizado com cacau em pó.",
                 "image": "/images/iced-mocha.jpeg"
             }
         },
