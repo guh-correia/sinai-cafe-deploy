@@ -1,6 +1,6 @@
 import { centralizeCardAbout, centralizeCardAdicionais } from "./services/centralizeWindow.js";
 import { getDescription } from "../cardapioScript/services/api.js";
-import { cardAbout, cardAdicionais, inputLeite, avancarPedido, leiteIntegral } from "./dom/cardapio.js";
+import { cardAbout, cardAdicionais, inputLeite, avancarPedido, leiteIntegral, leiteZero, leiteVegetal } from "./dom/cardapio.js";
 import { preventSubmit } from "./services/preventNoMilk.js";
 
 inputLeite.style.display = "none";
@@ -45,6 +45,7 @@ function hideMilkOption(cafe) {
 function displayMilk() {
     const spanIntegral = document.getElementsByClassName("integral");
     const spanZero = document.getElementsByClassName("zero-lactose");
+    const spanVegetal = document.getElementsByClassName("zero-lactose");
     avancarPedido.style.backgroundColor = "#000000";
     avancarPedido.disabled = false;
     avancarPedido.style.cursor = "pointer";
@@ -53,9 +54,15 @@ function displayMilk() {
     if (leiteIntegral.checked) {
         spanIntegral[0].style.display = "inline";
         spanZero[0].style.display = "none";
-    } else {
+        spanVegetal[0].style.display = "none";
+    } else if (leiteZero.checked) {
         spanIntegral[0].style.display = "none";
         spanZero[0].style.display = "inline";
+        spanVegetal[0].style.display = "none";
+    } else {
+        spanIntegral[0].style.display = "none";
+        spanZero[0].style.display = "none";
+        spanVegetal[0].style.display = "inline";
     }
 }
 
