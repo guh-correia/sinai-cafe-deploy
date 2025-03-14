@@ -45,7 +45,7 @@ function hideMilkOption(cafe) {
 function displayMilk() {
     const spanIntegral = document.getElementsByClassName("integral");
     const spanZero = document.getElementsByClassName("zero-lactose");
-    const spanVegetal = document.getElementsByClassName("zero-lactose");
+    const spanVegetal = document.getElementsByClassName("vegetal");
     avancarPedido.style.backgroundColor = "#000000";
     avancarPedido.disabled = false;
     avancarPedido.style.cursor = "pointer";
