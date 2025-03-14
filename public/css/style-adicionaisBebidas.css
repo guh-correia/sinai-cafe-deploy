@@ -133,5 +133,6 @@ label {
     position: absolute;
     background-color: rgba(138, 138, 138, 0.8);
     display: none;
+    top: 0;
 }
 
