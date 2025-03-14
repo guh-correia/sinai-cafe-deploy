@@ -189,11 +189,12 @@ label {
 }
 
 #gray-container {
-    height: 1679.2px;
+    height: 100vh;
     width: 100%;
     position: absolute;
     background-color: rgba(138, 138, 138, 0.8);
     display: none;
+    top: 0;
 }
 
 .blinkColor {    
