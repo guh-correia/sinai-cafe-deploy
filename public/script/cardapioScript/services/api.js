@@ -1,5 +1,5 @@
 async function getDescription() {
-    const url = '../../../../json/cafes.json'; // Caminho absoluto (recomendado para o Vercel)
+    const url = '/json/cafes.json'; // Caminho absoluto (recomendado para o Vercel)
     try {
         const response = await fetch(url); // Faz a requisição
         if (!response.ok) {
