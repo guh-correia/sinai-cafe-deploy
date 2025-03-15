@@ -18,7 +18,6 @@ $cafe = $_SESSION["cafe"];
     <link rel="stylesheet" href="/sinai-cafe/css/confirmacao-pedido.css">
 </head>
 <body>
-    <img class="background-image" src="<blockquote class="imgur-embed-pub" lang="en" data-id="a/p85RPOW"  ><a href="//imgur.com/a/p85RPOW">background image</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>" alt="background image">
     <main class="card">
         <div class="precisamos-nome">
             <h3>Agora só precisamos do seu nome!</h3>
