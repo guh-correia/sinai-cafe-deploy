@@ -1,4 +1,4 @@
-const url = "http://sinaicafe.com:3000"
+const url = "/api"
 
 function finalizarPedido(id) {
     const pedidoId = { "id": id }
