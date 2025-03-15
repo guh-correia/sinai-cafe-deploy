@@ -1,6 +1,6 @@
 import { getCoffee } from "./services/getData.js";
 
-const url = "http://localhost:3333"
+const url = "http://sinaicafe.com:3000"
 
 async function getPedido () {
     const response = await fetch(url);

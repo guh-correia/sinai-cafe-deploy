@@ -1,4 +1,4 @@
-const url = "http://localhost:3333"
+const url = "http://sinaicafe.com:3000"
 
 function finalizarPedido(id) {
     const pedidoId = { "id": id }
@@ -13,7 +13,6 @@ function finalizarPedido(id) {
 }
 
 async function getPedido () {
-    const url = "http://localhost:3333"
     const response = await fetch(url); 
     const data = await response.json(); 
     return data;
