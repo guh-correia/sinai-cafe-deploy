@@ -51,6 +51,6 @@ $cafe = $_SESSION["cafe"];
         <span>Comanda: </span>
     </div>
 
-    <script type="module" src="/sinai-cafe/script/pedidoFinalizadoScript/getOrder.js"></script>
+    <script type="module" src="/pedidoFinalizadoScript/getOrder.js"></script>
 </body>
 </html>
