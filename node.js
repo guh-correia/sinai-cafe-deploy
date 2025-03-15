@@ -38,6 +38,6 @@ server.patch("/", async (req, res) => {
   res.status(201).send()
 })
 
-server.listen({ port: 3000 }, () => {
+server.listen({ port: 3000, host: '69.62.65.74' }, () => {
   console.log('Servidor rodando na porta 3000');
 });
