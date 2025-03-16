@@ -15,7 +15,7 @@ async function getAllPedidos() {
 async function getAllPedidosFinalizados() {
     const response = await getPedido();
 
-    for (let i = 0; i < response.length; i++) {
+    for (let i = response.length - 1; i >= 0; i--) {
         if (response[i].status == 1)
         displayCompletedOrder(i, ".pedidos-finalizados")
     }

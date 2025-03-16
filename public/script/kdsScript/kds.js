@@ -1,4 +1,4 @@
-import { getPedido } from "./api.js"
+import { getPedido, dbTest } from "./api.js"
 import { displayOrder } from "./views.js";
 import { getAllPedidos, getAllPedidosFinalizados } from "./services/getData.js";
 

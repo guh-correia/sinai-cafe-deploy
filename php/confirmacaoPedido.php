@@ -48,8 +48,13 @@ $cafe = $_SESSION["cafe"];
         <h3>Tudo Certo, </h3>
         <p>Seu pedido está sendo preparado, chamaremos pelo seu nome ou número de comanda.</p>
         <span>Comanda: </span>
+        <div style="display: flex; gap: 5px;">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Nos siga no Instagram: @sinaicafeoficial</span>
+        </div>
     </div>
 
+    <script src="https://kit.fontawesome.com/a6202c195c.js" crossorigin="anonymous"></script>
     <script type="module" src="/pedidoFinalizadoScript/getOrder.js"></script>
 </body>
 </html>

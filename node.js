@@ -1,9 +1,16 @@
 import { fastify } from 'fastify';
 import { databaseMemory } from '/api/databaseMemory.js';
 import cors from '@fastify/cors';
+import https from 'https';
+import fs from 'fs';
 
 const server = fastify()
 const database = new databaseMemory()
+
+const options = {
+  key: fs.readFileSync('/etc/letsencrypt/live/sinaicafe.com/privkey.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/live/sinaicafe.com/fullchain.pem')
+};
 
 server.register(cors, {
   origin: '*', // Permite todas as origens (modifique conforme necessário)
@@ -38,6 +45,10 @@ server.patch("/", async (req, res) => {
   res.status(201).send()
 })
 
-server.listen({ port: 3000, host: '69.62.65.74' }, () => {
-  console.log('Servidor rodando na porta 3000');
+server.listen(3000, { https: options }, (err, address) => {
+  if (err) {
+    console.error(err);
+    process.exit(1);
+  }
+  console.log(`Servidor HTTPS rodando em ${address}`);
 });

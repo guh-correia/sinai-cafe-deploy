@@ -50,6 +50,7 @@ async function displayCompletedOrder(comanda, dom) {
         <div class="botao-pedido comanda-${comanda}">
             <span>Finalizado</span>
         </div>
+
     </div>`
 }
 
