@@ -105,3 +105,15 @@ body {
     font-weight: 600;
     font-size: 18px;
 }
+
+@media  (max-width: 860px) {
+    .kds header nav ul li button{
+        padding: 10px;
+        border-radius: 18px;
+        font-size: 12px;
+    }
+
+    .bebida-cliente .bebida, .bebida-cliente .name {
+        font-size: 12px;
+    }
+}
