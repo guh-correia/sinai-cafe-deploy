@@ -116,4 +116,8 @@ body {
     .bebida-cliente .bebida, .bebida-cliente .name {
         font-size: 12px;
     }
+
+    .especificacao-bebida {
+        font-size: 12px;
+    }
 }
