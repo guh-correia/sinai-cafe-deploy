@@ -14,6 +14,9 @@ async function pedidoFeito() {
     document.querySelector(".pedido-feito h3").style.fontSize = "46px"
     document.querySelector(".pedido-feito span").style.fontSize = "42px"
     document.querySelector(".pedido-feito p").style.fontSize = "34px"
+    document.querySelector(".insta").style.fontSize = "40px"
+    document.querySelector(".insta span").style.fontSize = "26px"
+    document.querySelector(".insta").style.display = "flex"
     setTimeout(() => {
         cardPedidoFeito.style.height = "0px";
         cardPedidoFeito.style.width = "0px";
