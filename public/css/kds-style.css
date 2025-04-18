@@ -113,11 +113,14 @@ body {
         font-size: 12px;
     }
 
-    .bebida-cliente .bebida, .bebida-cliente .name {
+    .bebida-cliente .bebida, .bebida-cliente .name  {
         font-size: 12px;
     }
 
     .especificacao-bebida {
-        font-size: 12px;
+        font-size: 15px;
+    }
+    .botao-pedido span {
+        font-size: 15px;
     }
 }
