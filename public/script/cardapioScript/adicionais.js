@@ -9,9 +9,9 @@ const inputAdicional = document.getElementById("tipo-adicional");
 inputAdicional.addEventListener("change", displayAdicionais);
 
 inputAdicional.style.display = "none";
+confirmacaoPedido.style.backgroundColor = "#000000";
 
 function displayAdicionais() {
-    confirmacaoPedido.style.backgroundColor = "#000000";
     confirmacaoPedido.disabled = false;
     confirmacaoPedido.style.cursor = "pointer";
     inputAdicional.style.display = "flex";
