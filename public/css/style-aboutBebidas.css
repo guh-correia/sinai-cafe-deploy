@@ -243,3 +243,8 @@ label {
 #return-button {
     display: none;
 }
+
+.alerta-adicionais {
+    padding-top: 6px;
+    font-weight: 600;
+}
