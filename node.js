@@ -1,7 +1,6 @@
 import { fastify } from 'fastify';
-import { databaseMemory } from '/api/databaseMemory.js';
+import { databaseMemory } from './api/databaseMemory.js';
 import cors from '@fastify/cors';
-import https from 'https';
 import fs from 'fs';
 
 const server = fastify()
