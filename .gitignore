@@ -26,3 +26,4 @@ pids/
 # Ignorar requisições de testes no VS Code/Insomnia/Postman
 /routes.http
 .vercel
+.node.js
