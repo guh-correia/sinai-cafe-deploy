@@ -26,10 +26,7 @@ async function displayOrder(comanda, dom) {
             <span>Começar</span>
         </div>
     </div>`
-    let botoesPedidos = document.getElementsByClassName("botao-pedido")
-    Array.from(botoesPedidos).forEach(botao => {
-        botao.addEventListener("click", time)
-    });
+    time();
 }
 
 async function displayCompletedOrder(comanda, dom) {
