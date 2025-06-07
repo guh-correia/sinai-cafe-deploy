@@ -1,5 +1,5 @@
 import { cardAbout, cardAdicionais, grayBackground, body, avancarPedido, inputLeite } from "../dom/cardapio.js";
-import { inputAdicional, confirmacaoPedido } from "../adicionais.js";
+import { inputAdicional, confirmacaoPedido, avancarPedido } from "../adicionais.js";
 
 function close() {
     const radioAdicional = document.getElementsByClassName("radio-adicional")
@@ -8,7 +8,7 @@ function close() {
         cardAdicionais.style.display = "none";
         inputAdicional.style.display = "none";
         confirmacaoPedido.style.backgroundColor = "#9c9c9c";
-        confirmacaoPedido.removeEventListener;
+        avancarPedido.removeEventListener;
         if (radioAdicional[0].checked) {
             radioAdicional[0].checked = false;
         } else {
