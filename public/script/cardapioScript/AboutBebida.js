@@ -40,6 +40,7 @@ function hideMilkOption(cafe) {
         avancarPedido.style.backgroundColor = "#727272";
         avancarPedido.type = "submit"
         titleOptions.style.display = "flex"
+        avancarPedido.addEventListener("click", preventColdCoffeeSubmit);
     } else {
         Array.from(milkOptions).forEach(element => {
             element.style.display = "flex"

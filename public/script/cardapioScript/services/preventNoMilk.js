@@ -36,4 +36,15 @@ function preventSubmit() {
     }
 }
 
-export { preventSubmit }
+function preventColdCoffeeSubmit() {
+    const leiteZero = document.getElementById("zero");
+    const leiteVegetal = document.getElementById("vegetal");
+    const returnButton = document.getElementById("return-button");
+    if (!leiteIntegral.checked & !leiteZero.checked & !leiteVegetal.checked) {
+        blinkMilk();
+    } else {
+        returnButton.style.display = "block"
+    }
+}
+
+export { preventSubmit, preventColdCoffeeSubmit }
