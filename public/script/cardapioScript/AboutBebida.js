@@ -6,6 +6,9 @@ import { preventSubmit, preventColdCoffeeSubmit } from "./services/preventNoMilk
 inputLeite.style.display = "none";
 
 export async function popUpAbout(cafe) {
+    if(!cafe.classList.contains("cafe-gelado")) {
+        avancarPedido.addEventListener("click", preventSubmit);
+    }
     inputLeite.addEventListener("change", displayMilk);
     hideMilkOption(cafe)
     let nomeBebida = cafe.querySelector("h3").innerHTML;
