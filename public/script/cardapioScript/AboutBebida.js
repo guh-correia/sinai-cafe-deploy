@@ -33,6 +33,8 @@ function hideMilkOption(cafe) {
         avancarPedido.style.backgroundColor = "#000000";
         avancarPedido.style.cursor = "pointer"
         avancarPedido.type = "submit"
+    } else if (cafe.classList.contains("cafe-gelado")){
+        avancarPedido.type = "submit"
     } else {
         Array.from(milkOptions).forEach(element => {
             element.style.display = "flex"

@@ -7,6 +7,9 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
     header("Location: /sinai-cafe/php/confirmacaoPedido.php");
     exit;
+} else {
+    header("Location: https://sinai-cafe.vercel.app/");
+    exit;
 };
 
 ?>
