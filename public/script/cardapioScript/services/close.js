@@ -1,5 +1,5 @@
 import { cardAbout, cardAdicionais, grayBackground, body, avancarPedido, inputLeite } from "../dom/cardapio.js";
-import { inputAdicional, confirmacaoPedido, avancarPedido } from "../adicionais.js";
+import { inputAdicional, confirmacaoPedido } from "../adicionais.js";
 
 function close() {
     const radioAdicional = document.getElementsByClassName("radio-adicional")
