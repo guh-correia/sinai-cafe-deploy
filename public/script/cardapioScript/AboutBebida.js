@@ -5,10 +5,9 @@ import { preventSubmit, preventColdCoffeeSubmit } from "./services/preventNoMilk
 
 inputLeite.style.display = "none";
 
-avancarPedido.addEventListener("click", preventSubmit);
-inputLeite.addEventListener("change", displayMilk);
-
 export async function popUpAbout(cafe) {
+    avancarPedido.addEventListener("click", preventSubmit);
+    inputLeite.addEventListener("change", displayMilk);
     hideMilkOption(cafe)
     let nomeBebida = cafe.querySelector("h3").innerHTML;
     cardAbout.querySelector("h4").innerText = nomeBebida;
