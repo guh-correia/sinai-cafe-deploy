@@ -8,6 +8,7 @@ function close() {
         cardAdicionais.style.display = "none";
         inputAdicional.style.display = "none";
         confirmacaoPedido.style.backgroundColor = "#9c9c9c";
+        confirmacaoPedido.removeEventListener;
         if (radioAdicional[0].checked) {
             radioAdicional[0].checked = false;
         } else {
