@@ -100,8 +100,9 @@ label {
 }
 
 #about {
-    height: 600px;
-    width: 910px;
+    height: 610px;
+    width: 920px;
+    padding: 10px;
     border-radius: 12px;
     box-shadow: 0px 0px 18px -7px;
     flex-direction: column;
