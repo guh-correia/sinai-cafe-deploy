@@ -62,3 +62,14 @@
     width: 178px;
 }
 
+.totemCode {
+    height: 300px;
+    width: 400px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}

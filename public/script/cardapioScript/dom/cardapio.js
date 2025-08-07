@@ -13,11 +13,14 @@ const leiteVegetal = document.getElementById("vegetal");
 export { cafes, grayBackground, body, cardAbout, cardAdicionais, inputLeite, avancarPedido, leiteIntegral, leiteVegetal, leiteZero } 
 
 if (!sessionStorage.getItem("totemCode")) {
-  const code = "TOTEM_" + Math.random().toString(36).substring(2, 8).toUpperCase();
-  sessionStorage.setItem("totemCode", code);
+    const code = Math.random().toString(36).substring(2, 8).toUpperCase();
+    sessionStorage.setItem("totemCode", code);
 
-    console.log(code)
+    // showTotemCode();
 }
 
+// showTotemCode() {
+    
+// }
 
 const totemCode = sessionStorage.getItem("totemCode");
