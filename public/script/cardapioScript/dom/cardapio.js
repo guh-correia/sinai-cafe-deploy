@@ -16,11 +16,13 @@ if (!sessionStorage.getItem("totemCode")) {
     const code = Math.random().toString(36).substring(2, 8).toUpperCase();
     sessionStorage.setItem("totemCode", code);
 
-    // showTotemCode();
+    showTotemCode(code);
 }
 
-// showTotemCode() {
-    
-// }
+function showTotemCode(code) {
+    totemCode = code
+
+    console.log(code)
+}
 
 const totemCode = sessionStorage.getItem("totemCode");
