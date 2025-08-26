@@ -8,7 +8,7 @@ const avancarPedido = document.getElementsByClassName("avancar-pedido")[0];
 const leiteIntegral = document.getElementById("integral");
 const leiteZero = document.getElementById("zero");
 const leiteVegetal = document.getElementById("vegetal");
-
+const showCode = document.getElementsByClassName("totem-code")[0];
 
 export { cafes, grayBackground, body, cardAbout, cardAdicionais, inputLeite, avancarPedido, leiteIntegral, leiteVegetal, leiteZero } 
 
@@ -20,7 +20,7 @@ if (!sessionStorage.getItem("totemCode")) {
 }
 
 function showTotemCode(code) {
-    document.getElementsByClassName("totem-code")[0] = code;
+    showCode = code;
 
     console.log(code)
 }
