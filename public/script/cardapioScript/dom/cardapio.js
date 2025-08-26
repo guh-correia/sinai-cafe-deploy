@@ -20,7 +20,7 @@ if (!sessionStorage.getItem("totemCode")) {
 }
 
 function showTotemCode(code) {
-    totemCode = code
+    document.getElementsByClassName("totem-code")[0] = code;
 
     console.log(code)
 }
