@@ -69,6 +69,8 @@
     color: #000000;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    text-align: center;
     flex-direction: column;
     gap: 25px;
     padding: 20px;
