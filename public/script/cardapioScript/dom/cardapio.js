@@ -21,6 +21,7 @@ if (!sessionStorage.getItem("totemCode")) {
 
 function showTotemCode(code) {
     showCode.innerHTML = code;
+    grayBackground.style.display = "block";
 
     console.log(code)
 }
