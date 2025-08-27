@@ -23,7 +23,7 @@ export async function popUpAbout(cafe) {
             document.querySelector(".nome-bebida").value = [nomeBebida];
         }
     });
-    centralizeCardAbout();
+    centralizeCardAbout(cardAbout);
 }
 
 function hideMilkOption(cafe) {

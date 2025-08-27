@@ -1,3 +1,5 @@
+import { centralizeCardAbout, centralizeCardAdicionais } from "./services/centralizeWindow.js";
+
 const cafes = document.querySelectorAll(".cafe");
 const grayBackground = document.getElementById("gray-container");
 const body = document.getElementsByTagName("body");
@@ -22,6 +24,8 @@ if (!sessionStorage.getItem("totemCode")) {
 function showTotemCode(code) {
     showCode.innerHTML = code;
     grayBackground.style.display = "block";
+
+    centralizeCardAbout(showCode)
 
     console.log(code)
 }
