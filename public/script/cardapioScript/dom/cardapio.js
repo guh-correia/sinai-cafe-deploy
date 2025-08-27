@@ -1,4 +1,4 @@
-import { centralizeCardAbout, centralizeCardAdicionais } from "./services/centralizeWindow.js";
+import { centralizeCardAbout } from "../services/centralizeWindow.js";
 
 const cafes = document.querySelectorAll(".cafe");
 const grayBackground = document.getElementById("gray-container");
