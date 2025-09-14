@@ -59,3 +59,30 @@ a {
     z-index: 1;
 }
 
+.code-card {
+    height: 400px;
+    width: 600px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+    position: absolute;
+    z-index: 5;
+    border-radius: 12px;
+    box-shadow: 0px 0px 18px -7px;
+    text-transform: capitalize;
+
+    & span {
+        font-size: 30px;
+    }
+     h2 {
+        font-size: 40px;
+    } p {
+        font-size: 20px;
+    }
+}
