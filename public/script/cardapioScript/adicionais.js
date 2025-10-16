@@ -3,7 +3,6 @@ const canela = document.getElementById("canela");
 const cacau = document.getElementById("cacau");
 const spanCanela = document.getElementsByClassName("canela");
 const spanCacau = document.getElementsByClassName("cacau");
-const spanNada = document.getElementsByClassName("nada");
 const inputAdicional = document.getElementById("tipo-adicional");
 
 inputAdicional.addEventListener("change", displayAdicionais);
@@ -19,14 +18,10 @@ function displayAdicionais() {
     if (canela.checked) {
         spanCanela[0].style.display = "inline";
         spanCacau[0].style.display = "none";
-        spanNada[0].style.display = "none"
     } else if (cacau.checked) {
         spanCanela[0].style.display = "none";
         spanCacau[0].style.display = "inline";
-        spanNada[0].style.display = "none"
-
     } else {
-        spanNada[0].style.display = "inline";
         spanCanela[0].style.display = "none";
         spanCacau[0].style.display = "none";
     }

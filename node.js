@@ -6,10 +6,10 @@ import fs from 'fs';
 const server = fastify()
 const database = new databaseMemory()
 
-  // const options = {
-  //   key: fs.readFileSync('/etc/letsencrypt/live/sinaicafe.com/privkey.pem'),
-  //   cert: fs.readFileSync('/etc/letsencrypt/live/sinaicafe.com/fullchain.pem')
-  // };
+  const options = {
+    key: fs.readFileSync('/etc/letsencrypt/live/sinaicafe.com.br/privkey.pem'),
+    cert: fs.readFileSync('/etc/letsencrypt/live/sinaicafe.com.br/fullchain.pem')
+  };
 
 server.register(cors, {
   origin: '*', // Permite todas as origens (modifique conforme necessário)
