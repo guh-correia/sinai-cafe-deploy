@@ -5,7 +5,7 @@
         $_SESSION["adicional"] = $_GET["tipo-adicional"];
         $_SESSION["cafe"] =  $_GET["cafe"];
 
-        header("Location: /sinai-cafe/php/confirmacaoPedido.php");
+        header("Location: /confirmacaoPedido.php");
     exit;
     } else {
         header("Location: https://sinai-cafe.vercel.app/");
