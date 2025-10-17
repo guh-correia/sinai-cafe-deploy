@@ -5,8 +5,10 @@
         $_SESSION["adicional"] = $_GET["tipo-adicional"];
         $_SESSION["cafe"] =  $_GET["cafe"];
 
-        header("Location: /confirmacaoPedido.php");
-    exit;
+        echo $_SESSION["leite"], $_SESSION["adicional"], $_SESSION["cafe"];
+
+        // header("Location: /confirmacaoPedido.php");
+    // exit;
     } else {
         header("Location: https://sinai-cafe.vercel.app/");
         exit;
