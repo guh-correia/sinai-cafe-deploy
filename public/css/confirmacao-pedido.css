@@ -3,7 +3,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/images/Imagem\ do\ WhatsApp\ de\ 2024-07-11\ à\(s\)\ 11.15.48_32232e75.jpg) no-repeat center;
+    background: url(../images/background-image.jpg) no-repeat center;
     background-size: 1800px;
 }
 
