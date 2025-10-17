@@ -18,8 +18,8 @@ $cafe = $_SESSION["cafe"];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirmação pedido</title>
 
-    <link rel="stylesheet" href="/sinai-cafe/css/reset.css">
-    <link rel="stylesheet" href="/sinai-cafe/css/confirmacao-pedido.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/confirmacao-pedido.css">
 </head>
 <body>
     <main class="card">
@@ -59,6 +59,6 @@ $cafe = $_SESSION["cafe"];
     </div>
 
     <script src="https://kit.fontawesome.com/a6202c195c.js" crossorigin="anonymous"></script>
-    <script type="module" src="/pedidoFinalizadoScript/getOrder.js"></script>
+    <script type="module" src="script/pedidoFinalizadoScript/getOrder.js"></script>
 </body>
 </html>
