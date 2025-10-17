@@ -5,10 +5,10 @@ $leite = (empty($_SESSION["leite"])) ? "Sem leite" : $_SESSION["leite"];
 $adicional = (empty($_SESSION["adicional"])) ? "Sem adicional" : $_SESSION["adicional"];
 $cafe = $_SESSION["cafe"];
 
-// if (empty($cafe)) {
-//     header("Location: https://sinai-cafe.vercel.app/");
-//     exit;
-// };
+if (empty($cafe)) {
+    header("Location: https://sinai-cafe.vercel.app/");
+    exit;
+};
 ?>
 
 <!DOCTYPE html>
