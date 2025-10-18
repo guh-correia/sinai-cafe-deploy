@@ -30,7 +30,6 @@ async function displayOrder(comanda, dom) {
 
 async function displayCompletedOrder(comanda, dom) {
     const response = await getPedido();
-    time();
     document.querySelector(dom).innerHTML += `
     <div class="pedido pedido-${comanda}">
         <div class="info-bebida">
@@ -48,6 +47,7 @@ async function displayCompletedOrder(comanda, dom) {
             <span>Finalizado</span>
         </div>
     </div>`
+    time();
 }
 
 export { displayOrder, displayCompletedOrder }
