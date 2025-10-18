@@ -52,7 +52,7 @@ if (empty($cafe)) {
         <h3>Tudo Certo, </h3>
         <p>Seu pedido está sendo preparado, chamaremos pelo seu nome ou número de comanda.</p>
         <span>Comanda: </span>
-        <div style="display: flex; gap: 5px;">
+        <div style="display: flex; gap: 5px;" class="insta">
             <i class="fa-brands fa-instagram"></i>
             <span>Nos siga no Instagram: @sinaicafeoficial</span>
         </div>
