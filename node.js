@@ -1,5 +1,5 @@
 import { fastify } from 'fastify';
-import { databaseMemory } from './apiapi/databaseMemory.js';
+import { databaseMemory } from './api/databaseMemory.js';
 import cors from '@fastify/cors';
 import fs from 'fs';
 
