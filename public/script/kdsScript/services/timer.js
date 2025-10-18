@@ -5,7 +5,7 @@ async function time() {
     const response = await getPedido();
     console.log(response)
 
-    for (let i = 1; i < response.length; i++) { 
+    for (let i = 0; i < response.length; i++) { 
         console.log(i)
         if (this.classList.contains(`comanda-${i}`)) {
             this.querySelector("span").innerText = "Preparando"
