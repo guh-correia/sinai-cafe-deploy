@@ -9,6 +9,6 @@
         exit;
     } else {
         header("Location: https://sinaicafe.com.br");
-        exit;
+        exit;   
     };
 ?>

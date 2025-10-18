@@ -1,4 +1,5 @@
 import { getName } from "./services/getData.js";
+import { pedidoFeito } from "/displayPedidoFeito.js";
 
 document.getElementById("nome-cliente").addEventListener("input", function(event) {
     this.value = this.value.replace(/[^A-Za-zÀ-ÿ\s]/g, "");
