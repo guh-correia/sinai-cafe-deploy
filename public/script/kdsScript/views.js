@@ -23,10 +23,10 @@ async function displayOrder(comanda, dom) {
         </div>
 
         <div class="botao-pedido comanda-${comanda}">
-            ${time()}
             <span>Começar</span>
         </div>
-    </div>`;
+    </div>`
+    time();
 }
 
 async function displayCompletedOrder(comanda, dom) {
