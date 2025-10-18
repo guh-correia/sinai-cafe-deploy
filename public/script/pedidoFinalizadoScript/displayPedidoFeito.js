@@ -28,7 +28,7 @@ async function pedidoFeito() {
         document.querySelector(".pedido-feito p").style.fontSize = "0px"
     }, 5000);
     setTimeout(() => {
-        window.location.href = "https://sinai-cafe.vercel.app";
+        window.location.href = "https://sinaicafe.com.br";
     }, 5200);
     return postPedido()
 }
