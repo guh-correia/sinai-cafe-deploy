@@ -99,18 +99,17 @@ label {
     box-shadow: 0px 0px 14px -3px #000000;
 }
 
-#adicionais {
+#about {
     height: 610px;
     width: 920px;
+    padding: 10px;
     border-radius: 12px;
     box-shadow: 0px 0px 18px -7px;
-    padding: 10px;
-    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
     background-color: #ffffff;
+    display: flex;
 }
 
 .title {
