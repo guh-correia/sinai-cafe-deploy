@@ -4,7 +4,6 @@ import { finalizarPedido } from "../api.js";
 async function time() {
     const response = await getPedido();
     console.log(response)
-    console.log(this)
 
     for (let i = 0; i < response.length; i++) { 
         let minutes = document.querySelector(`.time .min.comanda-time-${i}`)
@@ -29,19 +28,19 @@ async function time() {
             }
         }, 1000);
         console.log(i)
-        if (true) {
-            console.log(this)
-        }
-        if (this.classList.contains(`comanda-${i}`)) {
-            this.querySelector("span").innerText = "Preparando"
-            this.style.backgroundColor = "#fb8351";
-            this.style.color = "#ffffff";
-            this.addEventListener("click", () => {
+        let botaoComanda = document.getElementsByClassName(`comanda-${i}`);
+
+        botaoComanda.addEventListener("click", () => {
+            botaoComanda.querySelector("span").innerText = "Preparando"
+            botaoComanda.style.backgroundColor = "#fb8351";
+            botaoComanda.style.color = "#ffffff";
+            botaoComanda.addEventListener("click", () => {
                 const pedido = document.getElementsByClassName(`pedido-${i}`)[0]
                 pedido.style.display = "none"
                 finalizarPedido(i + 1)
             })
-        }
+        })
+            
     }   
 }
 
