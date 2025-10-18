@@ -1,5 +1,4 @@
 body{
-    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +164,6 @@ label {
     justify-content: space-around;
     position: absolute;
     background-color: #ffffff;
-    display: flex;
 }
 
 .title {
