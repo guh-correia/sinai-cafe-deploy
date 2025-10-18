@@ -44,7 +44,7 @@ server.patch("/", async (req, res) => {
   res.status(201).send()
 })
 
-server.listen({ port: 3000, host: '0.0.0.0' }, (err, address) => {
+server.listen({ port: 3000, host: '127.0.0.1' }, (err, address) => {
   if (err) {
     console.error(err);
     process.exit(1);
