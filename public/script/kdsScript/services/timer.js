@@ -4,6 +4,7 @@ import { finalizarPedido } from "../api.js";
 async function time() {
     const response = await getPedido();
     console.log(response)
+    console.log(this)
 
     for (let i = 0; i < response.length; i++) { 
         let minutes = document.querySelector(`.time .min.comanda-time-${i}`)
@@ -28,6 +29,9 @@ async function time() {
             }
         }, 1000);
         console.log(i)
+        if (true) {
+            console.log(this)
+        }
         if (this.classList.contains(`comanda-${i}`)) {
             this.querySelector("span").innerText = "Preparando"
             this.style.backgroundColor = "#fb8351";
