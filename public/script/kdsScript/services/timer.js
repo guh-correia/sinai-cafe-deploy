@@ -3,7 +3,7 @@ import { finalizarPedido } from "../api.js";
 
 async function time() {
     const response = await getPedido();
-    console(response)
+    console.log(response)
 
     for (let i = 1; i < response.length; i++) { 
         console.log(i)
