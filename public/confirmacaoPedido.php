@@ -6,7 +6,7 @@ $adicional = (empty($_SESSION["adicional"])) ? "Sem adicional" : $_SESSION["adic
 $cafe = $_SESSION["cafe"];
 
 if (empty($cafe)) {
-    header("Location: https://sinai-cafe.vercel.app/");
+    header("Location: https://sinaicafe.com.br");
     exit;
 };
 ?>
