@@ -3,7 +3,6 @@ import { finalizarPedido } from "../api.js";
 
 async function time() {
     const response = await getPedido();
-    console.log(response)
 
     for (let i = 0; i < response.length; i++) { 
         let minutes = document.querySelector(`.time .min.comanda-time-${i}`)
@@ -28,7 +27,7 @@ async function time() {
             }
         }, 1000);
         console.log(i)
-        let botaoComanda = document.getElementsByClassName(`comanda-${i}`);
+        let botaoComanda = document.querySelector(`.comanda-${i}`);
 
         botaoComanda.addEventListener("click", () => {
             botaoComanda.querySelector("span").innerText = "Preparando"
