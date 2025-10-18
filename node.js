@@ -16,12 +16,12 @@ server.register(cors, {
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'], // Métodos permitidos
 });
 
-server.get("/", (req, res) => {
+server.get("/api", (req, res) => {
   return database.list()
 });
 
 
-server.post("/", (req, res) =>{
+server.post("/api/pedido", (req, res) =>{
     const bebida = req.body
     bebida.id += 1
     console.log(bebida)
@@ -37,7 +37,7 @@ server.post("/", (req, res) =>{
     return res.status(201).send()
 })
 
-server.patch("/", async (req, res) => {
+server.patch("/api/pedido", async (req, res) => {
   const id = req.body.id
   database.patch(id)
 
