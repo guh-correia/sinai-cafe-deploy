@@ -1,4 +1,4 @@
-const url = "https://sinaicafe.com:3000"
+const url = "https://sinaicafe.com.br/api"
 
 function finalizarPedido(id) {
     const pedidoId = { "id": id }
@@ -19,7 +19,7 @@ async function getPedido () {
 }
 
 async function dbTest() {
-    const response = await fetch("https://sinaicafe.com:3000/pedidos"); 
+    const response = await fetch("https://sinaicafe.com.br/api/pedidos"); 
     const data = await response.json(); 
     console.log("bd data: ", data)
     return data;
