@@ -1,6 +1,6 @@
 import { getCoffee } from "./services/getData.js";
 
-const url = "https://sinaicafe.com"
+const url = "https://sinaicafe.com.br"
 
 async function getPedido () {
     const response = await fetch(url, {
