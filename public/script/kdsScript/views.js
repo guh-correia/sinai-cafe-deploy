@@ -5,7 +5,6 @@ import { capitalize } from "../pedidoFinalizadoScript/services/capitalize.js";
 async function displayOrder(comanda, dom) {
     const response = await getPedido();
     document.querySelector(dom).innerHTML += `
-    ${time()}
     <div class="pedido pedido-${comanda}">
         <div class="info-bebida">
             <div class="bebida-cliente">
@@ -24,6 +23,7 @@ async function displayOrder(comanda, dom) {
         </div>
 
         <div class="botao-pedido comanda-${comanda}">
+            ${time()}
             <span>Começar</span>
         </div>
     </div>`;
