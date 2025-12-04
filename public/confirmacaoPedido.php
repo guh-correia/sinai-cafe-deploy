@@ -26,9 +26,9 @@ if (empty($cafe)) {
         <div class="precisamos-nome">
             <h3>Agora só precisamos do seu nome!</h3>
 
-            <input type="submit" value="Tudo certo!" name="lancar-pedido" id="lancar-pedido">
-
             <input pattern="[A-Za-zÀ-ÿ\s]+" type="text" name="nome-cliente" id="nome-cliente" placeholder="Seu nome">
+
+            <input type="submit" value="Tudo certo!" name="lancar-pedido" id="lancar-pedido">
         </div>
         <div class="pedidoCliente">
             <h1 class="title">Seu pedido:</h1>
