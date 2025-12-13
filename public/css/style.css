@@ -24,7 +24,8 @@ main {
     text-transform: uppercase;
     font-weight: 700;
     align-items: center;
-    z-index: 1;
+    user-select: none;
+    pointer-events: none;
 }
 
 .marca {
