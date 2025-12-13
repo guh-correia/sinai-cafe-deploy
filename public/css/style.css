@@ -24,12 +24,15 @@ main {
     text-transform: uppercase;
     font-weight: 700;
     align-items: center;
+    z-index: 0;
     user-select: none;
     pointer-events: none;
 }
 
 .marca {
     font-size: 86px;
+    user-select: none;
+    pointer-events: none;
 }
 
 .cafe {
@@ -50,7 +53,9 @@ p {
     font-size: 30px;
     text-decoration: none;
     font-weight: 400;
-    z-index: 1;
+    z-index: 0;
+    user-select: none;
+    pointer-events: none;
 }
 
 a {
@@ -60,7 +65,7 @@ a {
     z-index: 1;
 }
 
-.code-card {
+/* .code-card {
     height: 400px;
     width: 600px;
     background-color: #ffffff;
@@ -86,4 +91,4 @@ a {
     } p {
         font-size: 20px;
     }
-}
+} */
