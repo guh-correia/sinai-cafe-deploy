@@ -3,7 +3,7 @@ import { finalizarPedido } from "../api.js";
 
 async function time() {
     const response = await getPedido();
-    console.log(response)
+    // console.log(response)
 
     for (let i = 0; i < response.length; i++) { 
         let minutes = document.querySelector(`.time .min.comanda-time-${i}`)
@@ -11,6 +11,7 @@ async function time() {
         let sec = 0
         let min = 0
         setInterval(() => {
+            console.log(this)
             sec += 1
             if (sec <= 9) {
                 seconds.innerText = "0" + sec
