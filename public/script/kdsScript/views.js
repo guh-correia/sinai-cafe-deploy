@@ -25,8 +25,10 @@ async function displayOrder(comanda, dom) {
         <div class="botao-pedido comanda-${comanda}">
             <span>Começar</span>
         </div>
-        ${time()};
     </div>`
+
+    const botao = document.querySelector(`.comanda-${comanda}`);
+    time(botao, comanda);
 }
 
 async function displayCompletedOrder(comanda, dom) {
