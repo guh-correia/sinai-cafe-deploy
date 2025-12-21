@@ -27,6 +27,7 @@ async function time() {
                 }
             }
         }, 1000);
+        console.log(this)
         if (this.classList.contains(`comanda-${i}`)) {
             this.querySelector("span").innerText = "Preparando"
             this.style.backgroundColor = "#fb8351";
