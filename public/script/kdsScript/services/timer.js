@@ -25,7 +25,7 @@ async function time(botao, comanda) {
     }, 1000);
 
     botao.classList.add("ativo");
-    botao.querySelector("span").innerText = "Preparando";
+    botao.querySelector("span").innerText = "Finalizar";
     botao.style.backgroundColor = "#fb8351";
     botao.style.color = "#ffffff";
 

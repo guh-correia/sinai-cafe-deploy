@@ -15,6 +15,9 @@ function iniciarCardapio() {
         cafe.addEventListener("mouseleave", () => {
             cafe.classList.remove("pressed")
         })
+        if (cafe.classList.contains("bebida-indisponivel")) {
+            cafe.removeEventListener;
+        }
     });    
 }
 

@@ -61,3 +61,7 @@
     height: 248px;
     width: 178px;
 }
+
+.bebida-indisponivel {
+    filter: grayscale(1);
+}
