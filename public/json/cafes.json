@@ -96,6 +96,18 @@
                 "description": "Espresso, leite gelado e xarope de caramelo, misturados com gelo para um toque doce e fresco.",
                 "image": "/images/iced-caramel-latte.jpeg"
             }
+        },
+        {
+            "chocolate quente": {
+                "description": "Chocolate e leite vaporizado, uma mistura perfeita e aconchegante.",
+                "image": "/images/iced-caramel-latte.jpeg"
+            }
+        },
+        {
+            "chocolate gelado": {
+                "description": "Chocolate, leite e gelo. Uma bebida doce e reconfortante.",
+                "image": "/images/iced-caramel-latte.jpeg"
+            }
         }
     ]
 }
