@@ -7,10 +7,10 @@ function displayVeganCard () {
     cardAdicionais.getElementsByClassName("title-span")[0].innerText = "Escholha uma opção:"
     cardAdicionais.getElementsByClassName("info")[0].innerText = "Normal"
     cardAdicionais.getElementsByClassName("info")[1].innerText = "Vegano"
-    cardAdicionais.getElementsByClassName("canela").innerText = "Normal" 
-    cardAdicionais.getElementsByClassName("canela").value = "Normal" 
-    cardAdicionais.getElementsByClassName("cacau").innerText = "Vegano" 
-    cardAdicionais.getElementsByClassName("cacau").value = "Vegano" 
+    cardAdicionais.getElementsByClassName("canela")[0].innerText = "Normal" 
+    cardAdicionais.getElementsByClassName("canela")[0].value = "Normal" 
+    cardAdicionais.getElementsByClassName("cacau")[0].innerText = "Vegano" 
+    cardAdicionais.getElementsByClassName("cacau")[0].value = "Vegano" 
     centralizeCardAdicionais()
 }
 

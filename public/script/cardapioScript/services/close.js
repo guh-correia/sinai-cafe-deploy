@@ -27,6 +27,14 @@ function close() {
             radioMilk[1].checked = false;
         };
     }
+    cardAdicionais.getElementsByClassName("titulo")[0].innerText = "Deseja algum adicional?"
+    cardAdicionais.getElementsByClassName("title-span")[0].innerText = "Escolha seu adicional:"
+    cardAdicionais.getElementsByClassName("info")[0].innerText = "Canela"
+    cardAdicionais.getElementsByClassName("info")[1].innerText = "Cacau em pó"
+    cardAdicionais.getElementsByClassName("canela").innerText = "Canela" 
+    cardAdicionais.getElementsByClassName("canela").value = "Canela" 
+    cardAdicionais.getElementsByClassName("cacau").innerText = "Cacau em pó" 
+    cardAdicionais.getElementsByClassName("cacau").value = "Cacau em pó" 
 }
 
 export { close }
