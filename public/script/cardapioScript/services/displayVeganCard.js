@@ -12,3 +12,5 @@ function displayVeganCard () {
     cardAdicionais.getElementsByClassName("cacau").value = "Vegano" 
     centralizeCardAdicionais()
 }
+
+export { displayVeganCard }

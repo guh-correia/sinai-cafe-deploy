@@ -2,14 +2,15 @@ import { centralizeCardAbout, centralizeCardAdicionais } from "./services/centra
 import { getDescription } from "../cardapioScript/services/api.js";
 import { cardAbout, cardAdicionais, inputLeite, avancarPedido, leiteIntegral, leiteZero } from "./dom/cardapio.js";
 import { preventSubmit, preventColdCoffeeSubmit } from "./services/preventNoMilk.js";
+import { displayVeganCard } from "./services/displayVeganCard.js";
 
 inputLeite.style.display = "none";
 
 export async function popUpAbout(cafe) {
     if(!cafe.classList.contains("cafe-gelado")) {
-        avancarPedido.addEventListener("click", preventSubmit);
+        avancarPedido.addEventListener("click", preventSubmit());
     } else if (cafe.classList.contains("chocolate")) {
-        avancarPedido.addEventListener("click", displayVeganCard);
+        avancarPedido.addEventListener("click", displayVeganCard());
     }
     inputLeite.addEventListener("change", displayMilk);
     hideMilkOption(cafe)
