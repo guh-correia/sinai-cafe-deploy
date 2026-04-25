@@ -8,9 +8,9 @@ function displayVeganCard () {
     cardAdicionais.getElementsByClassName("info")[0].innerText = "Normal"
     cardAdicionais.getElementsByClassName("info")[1].innerText = "Vegano"
     cardAdicionais.getElementsByClassName("canela")[0].innerText = "Normal" 
-    cardAdicionais.getElementsByClassName("canela")[0].value = "Normal" 
+    cardAdicionais.getElementsByClassName("radio-adicional")[0].value = "Normal" 
     cardAdicionais.getElementsByClassName("cacau")[0].innerText = "Vegano" 
-    cardAdicionais.getElementsByClassName("cacau")[0].value = "Vegano" 
+    cardAdicionais.getElementsByClassName("radio-adicional")[0].value = "Vegano" 
     centralizeCardAdicionais()
 }
 
