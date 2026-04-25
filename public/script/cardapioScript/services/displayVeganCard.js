@@ -10,7 +10,7 @@ function displayVeganCard () {
     cardAdicionais.getElementsByClassName("canela")[0].innerText = "Normal" 
     cardAdicionais.getElementsByClassName("radio-adicional")[0].value = "Normal" 
     cardAdicionais.getElementsByClassName("cacau")[0].innerText = "Vegano" 
-    cardAdicionais.getElementsByClassName("radio-adicional")[0].value = "Vegano" 
+    cardAdicionais.getElementsByClassName("radio-adicional")[1].value = "Vegano" 
     centralizeCardAdicionais()
 }
 

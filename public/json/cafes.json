@@ -100,13 +100,13 @@
         {
             "chocolate quente": {
                 "description": "Chocolate e leite vaporizado, uma mistura perfeita e aconchegante.",
-                "image": "/images/iced-caramel-latte.jpeg"
+                "image": "/images/hotChocolate.jpeg"
             }
         },
         {
             "chocolate gelado": {
                 "description": "Chocolate, leite e gelo. Uma bebida doce e reconfortante.",
-                "image": "/images/iced-caramel-latte.jpeg"
+                "image": "/images/icedChocolate.webp"
             }
         }
     ]
