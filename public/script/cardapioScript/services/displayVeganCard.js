@@ -4,9 +4,9 @@ import { centralizeCardAdicionais } from "./centralizeWindow.js";
 function displayVeganCard () {
     console.log("oi")
     cardAdicionais.getElementsByClassName("titulo")[0].innerText = "Sua bebida é vegana ou tradicional?"
-    cardAdicionais.querySelector("span")[0].innerText = "Escholha uma opção:"
-    cardAdicionais.querySelector("span")[1].innerText = "Normal"
-    cardAdicionais.querySelector("span")[2].innerText = "Vegano"
+    cardAdicionais.getElementsByClassName("title-span")[0].innerText = "Escholha uma opção:"
+    cardAdicionais.getElementsByClassName("info")[0].innerText = "Normal"
+    cardAdicionais.getElementsByClassName("info")[1].innerText = "Vegano"
     cardAdicionais.getElementsByClassName("canela").innerText = "Normal" 
     cardAdicionais.getElementsByClassName("canela").value = "Normal" 
     cardAdicionais.getElementsByClassName("cacau").innerText = "Vegano" 
