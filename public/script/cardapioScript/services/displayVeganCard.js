@@ -1,5 +1,5 @@
-import { cardAdicionais } from "../dom/cardapio";
-import { centralizeCardAdicionais } from "./centralizeWindow";
+import { cardAdicionais } from "../dom/cardapio.js";
+import { centralizeCardAdicionais } from "./centralizeWindow.js";
 
 function displayVeganCard () {
     console.log("oi")
