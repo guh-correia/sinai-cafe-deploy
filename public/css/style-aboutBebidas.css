@@ -149,6 +149,7 @@ label {
     width: 280px;
     height: 360px;
     border-radius: 7px;
+    object-fit: cover;
 }
 
 #about {
