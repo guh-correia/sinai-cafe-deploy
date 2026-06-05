@@ -4,7 +4,7 @@ import { liberacaoFrapre } from "./services/liberacaoFrapes.js";
 
 function iniciarCardapio() {
     cafes.forEach(cafe => {
-        if (!cafe.classList.contains("bebida-indisponivel") && !cafe.classList.contains("frappe")) {
+        if (!cafe.classList.contains("bebida-indisponivel") && liberacaoFrapre(cafe)) {
             cafe.addEventListener("click", () => {
             popUpAbout(cafe);
             });
@@ -17,6 +17,8 @@ function iniciarCardapio() {
             cafe.addEventListener("mouseleave", () => {
                 cafe.classList.remove("pressed")
             })
+        } else {
+            cafe.style.display = "none"
         }
     });    
 }
