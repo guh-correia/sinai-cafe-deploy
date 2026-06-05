@@ -4,7 +4,7 @@ import { liberacaoFrapre } from "./services/liberacaoFrapes.js";
 
 function iniciarCardapio() {
     cafes.forEach(cafe => {
-        if (!cafe.classList.contains("bebida-indisponivel") || liberacaoFrapre(cafe)) {
+        if (!cafe.classList.contains("bebida-indisponivel") && liberacaoFrapre(cafe)) {
             cafe.addEventListener("click", () => {
             popUpAbout(cafe);
             });

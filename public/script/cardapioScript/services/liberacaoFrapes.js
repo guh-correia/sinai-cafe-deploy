@@ -4,7 +4,7 @@ function liberacaoFrapre(cafe) {
     if (cafe.classList.contains("frappe")) {
         return new Date() >= horarioLiberacao;
     }
-    return false
+    return true
 }
 
 export { liberacaoFrapre }
