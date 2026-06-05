@@ -1,5 +1,5 @@
 import { getPedido } from "./api.js";
-import { time } from "./services/timer.js"
+// import { time } from "./services/timer.js"
 import { capitalize } from "../pedidoFinalizadoScript/services/capitalize.js";
 
 async function displayOrder(comanda, dom) {
@@ -28,7 +28,7 @@ async function displayOrder(comanda, dom) {
     </div>`
 
     const botao = document.querySelector(`.comanda-${comanda}`);
-    time(botao, comanda);
+    botao.addEventListener("click", document.querySelector(`.pedido-${comanda}`).style = none)
 }
 
 async function displayCompletedOrder(comanda, dom) {
