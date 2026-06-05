@@ -1,4 +1,4 @@
-const horarioLiberacao = new Date("2026-06-15T20:00:00");
+const horarioLiberacao = new Date("2026-06-05T20:00:00");
 const agora = new Date()
 
 function liberacaoFrapre(cafe) {
