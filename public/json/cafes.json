@@ -105,14 +105,14 @@
         },
         {
             "frappê de caramelo": {
-                "description": "Frapê Caramelo.",
-                "image": "/images/hotChocolate.jpeg"
+                "description": "Uma deliciosa e cremosa bedida de café e caramelo.",
+                "image": "/images/frappe-caramelo.jpeg"
             }
         },
         {
             "frappê de morango": {
-                "description": "Frapê Morango",
-                "image": "/images/hotChocolate.jpeg"
+                "description": "Uma deliciosa e cremosa bedida de café e morango.",
+                "image": "/images/frappe-morango.jpeg"
             }
         },
         {
