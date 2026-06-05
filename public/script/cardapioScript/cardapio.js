@@ -1,6 +1,6 @@
 import { cafes } from "./dom/cardapio.js"
 import { popUpAbout } from "./AboutBebida.js"
-import { liberacaoFrapre } from "./services/liberacaoFrapes";
+import { liberacaoFrapre } from "./services/liberacaoFrapes.js";
 
 function iniciarCardapio() {
     cafes.forEach(cafe => {
