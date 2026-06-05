@@ -26,10 +26,10 @@ async function pedidoFeito() {
         document.querySelector(".pedido-feito h3").style.fontSize = "0px"
         document.querySelector(".pedido-feito span").style.fontSize = "0px"
         document.querySelector(".pedido-feito p").style.fontSize = "0px"
-    }, 5000);
+    }, 10000);
     setTimeout(() => {
         window.location.href = "https://sinaicafe.com.br";
-    }, 5200);
+    }, 10200);
     return postPedido()
 }
 
