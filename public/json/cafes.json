@@ -104,6 +104,18 @@
             }
         },
         {
+            "frapê de caramelo": {
+                "description": "Frapê Caramelo.",
+                "image": "/images/hotChocolate.jpeg"
+            }
+        },
+        {
+            "frapê de morango": {
+                "description": "Frapê Morango",
+                "image": "/images/hotChocolate.jpeg"
+            }
+        },
+        {
             "chocolate gelado": {
                 "description": "Chocolate, leite e gelo. Uma bebida doce e reconfortante.",
                 "image": "/images/icedChocolate.webp"

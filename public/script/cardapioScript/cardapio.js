@@ -1,9 +1,10 @@
 import { cafes } from "./dom/cardapio.js"
 import { popUpAbout } from "./AboutBebida.js"
+import { liberacaoFrapre } from "./services/liberacaoFrapes";
 
 function iniciarCardapio() {
     cafes.forEach(cafe => {
-        if (!cafe.classList.contains("bebida-indisponivel")) {
+        if (!cafe.classList.contains("bebida-indisponivel") || liberacaoFrapre(cafe)) {
             cafe.addEventListener("click", () => {
             popUpAbout(cafe);
             });

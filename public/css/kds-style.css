@@ -64,7 +64,7 @@ body {
 }
 
 .bebida-cliente .bebida, .bebida-cliente .name {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 600;
 }
 
@@ -103,7 +103,7 @@ body {
 
 .comanda {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 @media  (max-width: 860px) {
