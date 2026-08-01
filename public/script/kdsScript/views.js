@@ -28,8 +28,10 @@ async function displayOrder(comanda, dom) {
     </div>`
 
     const botao = document.querySelector(`.comanda-${comanda}`);
-    botao.addEventListener("click", document.querySelector(`.pedido-${comanda}`).style.display = none)
-}
+    botao.addEventListener("click", () => {
+        document.querySelector(`.pedido-${comanda}`).style.display = "none";
+    });
+    }
 
 async function displayCompletedOrder(comanda, dom) {
     const response = await getPedido();
