@@ -31,6 +31,7 @@ async function displayOrder(comanda, dom) {
     console.log(comanda)
     botao.addEventListener("click", () => {
         document.querySelector(`.pedido-${comanda}`).style.display = "none";
+        console.log("oi")   
     });
     }
 
