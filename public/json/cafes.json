@@ -120,6 +120,12 @@
                 "description": "Chocolate, leite e gelo. Uma bebida doce e reconfortante.",
                 "image": "/images/icedChocolate.webp"
             }
+        },
+        {
+            "carajillo": {
+                "description": "Espresso e Licor 43, uma bebida intensa em sabor de café e igualmente doce. ",
+                "image": "/images/carajillo.jpeg"
+            }
         }
     ]
 }
