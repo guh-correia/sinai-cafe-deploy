@@ -28,6 +28,7 @@ async function displayOrder(comanda, dom) {
     </div>`
 
     const botao = document.querySelector(`.botao-pedido.comanda-${comanda}`);
+    console.log(comanda)
     botao.addEventListener("click", () => {
         document.querySelector(`.pedido-${comanda}`).style.display = "none";
     });
